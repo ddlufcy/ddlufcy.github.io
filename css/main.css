@@ -62,7 +62,11 @@ html {
 }
 
 /* Navbar */
-
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
 .navbar {
     background-color: #f8f9fa;
     position: sticky;
@@ -72,7 +76,13 @@ html {
 a {
     scroll-behavior: smooth;
 }
-
+#topLinkdin{
+    align-self: center;
+    padding-right: .4em;
+}
+#topGithub{
+    align-self: center;
+}
 /* Style the header: fixed position (always stay at the top) */
 
 .header {
@@ -101,7 +111,9 @@ a {
 }
 
 /* About me */
-
+#myPic{
+    width: 15vw;
+}
 #about {
     background-color: #2b6299;
     color: #f8f9fa;
@@ -244,6 +256,10 @@ h4{
     font-size: 1.2em;
     padding-top: .5em;
 }
+.contactLinks{  
+    margin-left: 30%;
+}
+/* Footer */
 footer{
     background-color: #2b6299;
 }
