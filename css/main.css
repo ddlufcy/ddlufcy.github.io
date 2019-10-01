@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Top Header */
+
+.jumbotron {
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(187, 187, 187, 0), rgba(27, 27, 27, 0.24)), url('../assets/myNameWallpaper.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    font-family: 'Coda', cursive;
+}
+
+/* my name */
+
+.myName {
+    color: #83a4ad;
+    position: absolute;
+    bottom: 331px;
+}
+
+#topName {
+    color: #101c28;
+    line-height: 1.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+#fullStackText {}
+
+/* 480px */
+
+@media screen and (max-width: 480px) {
+    .myName {
+        color: #83a4ad;
+        top: 48%;
+        position: absolute;
+    }
+    .jumbotron {
+        height: 31vh;
+    }
+}
+
+#topName {
+    /* line-height: 0.2em; */
+}
+
+/* 1024px */
+
+@media screen and (max-width: 1024px) {
+    .myName {
+        color: #83a4ad;
+        top: 48%;
+        position: absolute;
+    }
+    .jumbotron {
+        height: 31vh;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    scroll-behavior: smooth;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+
+.header {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* The progress container (grey background) */
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    margin: 0;
+}
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+    height: 8px;
+    background: #83a4ad;
+    width: 0%;
+}
+
+/* About me */
+
+#about {
+    background-color: #2b6299;
+    color: #f8f9fa;
+    min-height: 56vh;
+}
+
+#aboutMe {
+    font-family: 'Coda', cursive;
+    padding-left: .4em;
+    padding-top: .5em;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+/* Skills */
+
+#skills {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 68vh;
+    overflow: hidden;
+}
+
+#skillsText {
+    font-family: 'Coda', cursive;
+    padding-left: .4em;
+    padding-top: .3em;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    border-bottom: 4px solid #f8f9fa;
+}
+
+#skills {
+    background-color: #83a4ad;
+}
+
+.skillPics {
+    margin-top: 3em;
+}
+
+figure img {
+    max-height: 20vh;
+}
+.figure:hover{
+    transform: scale(1.1);
+    transition-duration: 0520ms;
+}
+
+.skillLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 3em;
+    width: 100%;
+    background-color: #83a4ad;
+}
+
+#card:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+#card {
+    border: none;
+    background: transparent;
+}
+
+.pills {
+    bottom: -130px;
+}
+
+/* Projects */
+
+#projects {
+    height: 50vh;
+}
+
+#projectsText {
+    font-family: 'Coda', cursive;
+    padding-left: .4em;
+    padding-top: .3em;
+    color: #83a4ad;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    border-bottom: 4px solid #83a4ad;
+}
+
+/* Contact Section */
+
+#contactSection h1 {
+    font-family: 'Coda', cursive;
+    padding-left: .4em;
+    padding-top: .5em;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    border-bottom: 3px solid #f8f9fa;
+}
+
+#contactSection {
+    background-color: #83a4ad;
+    max-height: 52vh;
+}
+#fs-frm{
+    display: inline-block;
+    text-align: end;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    text-align: start;
+    /* width: 20vw; */
+}
+.contactLogos{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+#linkdin{
+    height: 35px;
+    vertical-align: 0;
+    /* padding-left: 20vw; */
+}
+#linkdin:hover{
+    transform: scale(1.1);
+    transition-duration: 0500ms;
+}
+#gitHub{
+    height: 31px;
+    vertical-align: 0;
+   
+}
+#gitHub:hover{
+    transform: scale(1.1);
+    transition-duration: 0500ms;
+}
+textarea{
+
+}
+h4{
+    font-family: 'Coda', cursive;
+    color: #f8f9fa;
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.2em;
+    padding-top: .5em;
+}
+footer{
+    background-color: #2b6299;
+}
