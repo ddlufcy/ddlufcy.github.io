@@ -43,10 +43,25 @@ html {
         height: 31vh;
     }
     #myPic{
-        padding: 0;
+        padding-left: 0 !important;
+        margin: auto;
     }
     #bio{
         padding: 0;
+        margin: auto;
+        max-width: fit-content !important;
+    }
+    .aboutRow{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+    #about{
+        text-align: center;
+        margin: auto;
+    }
+    .picCol{
+        max-width: none !important;
     }
 }
 
@@ -66,10 +81,25 @@ html {
         height: 31vh;
     }
     #myPic{
-        padding: 0;
+        padding-left: 0 !important;
     }
     #topGithub{
         margin-right: 6px;
+    }
+    #about{
+        text-align: center;
+        margin: auto;
+    }
+    .aboutRow{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+    #bio{
+        max-width: fit-content !important;
+    }
+    .picCol{
+        max-width: none !important;
     }
     
 }
@@ -124,6 +154,10 @@ a {
 }
 
 /* About me */
+/* .aboutRow{
+    display: flex;
+    flex-direction: column;
+} */
 #myPic{
     max-height: 38vh;
     padding-left: 3em;
@@ -135,6 +169,7 @@ a {
 }
 .bio{
     overflow-wrap: break-word;
+    max-width: fit-content !important;
 }
 #aboutMe {
     font-family: 'Coda', cursive;
@@ -204,6 +239,10 @@ figure img {
 
 #projects {
     height: 50vh;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition-duration: 0400ms;
 }
 #blue{
     transform: scale(.7);
