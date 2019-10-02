@@ -42,6 +42,12 @@ html {
     .jumbotron {
         height: 31vh;
     }
+    #myPic{
+        padding: 0;
+    }
+    #bio{
+        padding: 0;
+    }
 }
 
 #topName {
@@ -59,6 +65,13 @@ html {
     .jumbotron {
         height: 31vh;
     }
+    #myPic{
+        padding: 0;
+    }
+    #topGithub{
+        margin-right: 6px;
+    }
+    
 }
 
 /* Navbar */
@@ -112,14 +125,17 @@ a {
 
 /* About me */
 #myPic{
-    width: 15vw;
+    max-height: 38vh;
+    padding-left: 3em;
 }
 #about {
     background-color: #2b6299;
     color: #f8f9fa;
     min-height: 56vh;
 }
-
+.bio{
+    overflow-wrap: break-word;
+}
 #aboutMe {
     font-family: 'Coda', cursive;
     padding-left: .4em;
@@ -189,7 +205,12 @@ figure img {
 #projects {
     height: 50vh;
 }
-
+#blue{
+    transform: scale(.7);
+}
+#red{
+    transform: scale(.7);
+}
 #projectsText {
     font-family: 'Coda', cursive;
     padding-left: .4em;
