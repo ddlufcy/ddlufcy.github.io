@@ -240,6 +240,7 @@ figure img {
 
 #projects {
     height: 50vh;
+    
 }
 .card:hover{
     transform: scale(1.02);
